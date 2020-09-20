@@ -1,0 +1,3 @@
+2020-09-20 11:19:51,720 - java.lang.Class -INFO - This s info msg
+2020-09-20 11:19:51,729 - java.lang.Class -ERROR - This is error msg
+2020-09-20 11:19:51,729 - java.lang.Class -FATAL - This is fatal msg
