@@ -1,3 +1,6 @@
 2020-09-20 11:19:51,720 [main] INFO java.lang.Class - This s info msg
 2020-09-20 11:19:51,729 [main] ERROR java.lang.Class - This is error msg
 2020-09-20 11:19:51,729 [main] FATAL java.lang.Class - This is fatal msg
+2020-09-20 11:59:55,086 [main] INFO java.lang.Class - This s info msg
+2020-09-20 11:59:55,202 [main] ERROR java.lang.Class - This is error msg
+2020-09-20 11:59:55,202 [main] FATAL java.lang.Class - This is fatal msg

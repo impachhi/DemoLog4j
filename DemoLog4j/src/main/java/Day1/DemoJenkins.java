@@ -1,20 +1,21 @@
 package Day1;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class DemoJenkins {
 	
 	@Test
 	void startApp() {
 		Logger logger=Logger.getLogger(Logger.class.getClass());
+		PropertyConfigurator.configure("log4j.properties");
 		WebDriver driver;
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
